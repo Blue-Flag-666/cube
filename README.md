@@ -28,7 +28,7 @@
 <td>→<br><span> U'</span></td>
 </tr>
 </table>
-## [虚拟魔方](https://huazhechen.gitee.io/cuber)
+## 虚拟魔方
 
 - 触控操作
 
