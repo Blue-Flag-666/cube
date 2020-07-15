@@ -1,6 +1,6 @@
 {
-  "name": "魔方游戏 - 星际工作室",
-  "short_name": "魔方游戏 - 星际工作室",  
+  "name": "魔方游戏",
+  "short_name": "魔方游戏",  
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",

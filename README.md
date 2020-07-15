@@ -1,3 +1,18 @@
+# [魔方栈](https://huazhechen.gitee.io/cuber)
+
+- 优美而强大的网页魔方
+
+- 地址: <https://huazhechen.gitee.io/cuber>
+
+  <img width="120px" src="https://gitee.com/huazhechen/cuber/raw/master/resource/icon.png"  alt="icon"/>
+
+- 使用过程中发现任何问题, 或者有任何需求和想法, 欢迎联系作者:
+  > 微信: huazhechen
+  >
+  > QQ: 37705123
+  >
+  > email: <37705123@qq.com>
+
 # 功能介绍
 
 ## 物理键盘
@@ -28,7 +43,8 @@
 <td>→<br><span> U'</span></td>
 </tr>
 </table>
-## 虚拟魔方
+
+## [虚拟魔方](https://huazhechen.gitee.io/cuber)
 
 - 触控操作
 
@@ -54,7 +70,7 @@
 
   ![replay](https://gitee.com/huazhechen/cuber/raw/master/screenshot/replay.gif)
 
-## 复原教程
+## [复原教程](https://huazhechen.gitee.io/cuber/?mode=algs)
 
 - 公式播放
 
@@ -68,7 +84,7 @@
 
   ![algs-step](https://gitee.com/huazhechen/cuber/raw/master/screenshot/algs-step.gif)
 
-## 动画制作
+## [动画制作](https://huazhechen.gitee.io/cuber?mode=director)
 
 - 场景布置与截图
 
@@ -112,4 +128,14 @@
 
   ![theme](https://gitee.com/huazhechen/cuber/raw/master/screenshot/theme.gif)
 
+## 技术栈
 
+- typescript
+- webpack
+- threejs
+- vue
+- vuetify
+
+## 赞赏
+
+  <img width="320px" src="https://gitee.com/huazhechen/cuber/raw/master/screenshot/appreciation.jpg"  alt="赞赏" />
