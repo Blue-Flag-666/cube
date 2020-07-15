@@ -113,3 +113,7 @@
 - 主题设置
 
   ![theme](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube@master/screenshot/theme.gif)
+
+## 感谢 Jetbrains 的支持
+
+![theme](https://raw.githubusercontent.com/Galaxy-Studio-Team/sources/master/jetbrains.png)
