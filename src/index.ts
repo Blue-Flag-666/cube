@@ -5,8 +5,9 @@ import "material-design-icons/iconfont/material-icons.css";
 import "./index.css";
 import Playground from "./vue/Playground";
 import Director from "./vue/Director";
-import Algs from "./vue/Algs";
 import Player from "./vue/Player";
+import Helper from "./vue/Helper";
+import Algs from "./vue/Algs";
 import { VueConstructor } from "vue/types/umd";
 
 /* eslint-disable */
@@ -43,6 +44,9 @@ switch (mode) {
     break;
   case "player":
     app = Player;
+    break;
+  case "helper":
+    app = Helper;
     break;
   default:
     app = Playground;

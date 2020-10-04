@@ -58,7 +58,7 @@ export default class About extends Vue {
   tap(key: string): void {
     switch (key) {
       case "help":
-        window.open("https://gitee.com/huazhechen/cuber/blob/master/README.md");
+        window.open("https://github.com/Galaxy-Studio-Code/cube/blob/master/README.md");
         break;
       case "reset":
         this.resetd = true;

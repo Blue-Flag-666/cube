@@ -66,6 +66,7 @@ export default class Setting extends Vue {
     switch (key) {
       case "playground":
       case "director":
+      case "helper":
       case "algs":
         let search = location.search || "";
         const list = search.match(/(\?|\&)mode=([^&]*)(&|$)/);

@@ -8,12 +8,12 @@ export class TwistAction {
   times: number;
   constructor(sign: string, reverse = false, times = 1) {
     // 不用解析场景
-    if (sign.match(/^[0123456789-]*[\*~.#xyzbsfdeulmr][w]*$/gi)) {
+    if (sign.match(/^[0123456789-]*[\*~;.#xyzbsfdeulmr][w]*$/gi)) {
       if (/[XYZ]/.test(sign)) {
         sign = sign.toLowerCase();
       }
     } else {
-      const values = sign.match(/([0123456789-]*[\*\#~.xyzbsfdeulmr][w]*)('?)(\d*)('?)/i);
+      const values = sign.match(/([0123456789-]*[\*\#~;.xyzbsfdeulmr][w]*)('?)(\d*)('?)/i);
       if (values) {
         sign = values[1];
         reverse = reverse !== ((values[2] + values[4]).length == 1);
@@ -130,7 +130,7 @@ export class TwistNode {
     // '符号处理
     exp = exp.replace(/[‘＇’]/g, "'");
     // 不用解析场景
-    if (exp.match(/^[0123456789-]*[\*~.#xyzbsfdeulmr][w]*$/gi)) {
+    if (exp.match(/^[0123456789-]*[\*~;.#xyzbsfdeulmr][w]*$/gi)) {
       this.twist = new TwistAction(exp, reverse, times);
       return;
     }
@@ -170,7 +170,7 @@ export class TwistNode {
       }
       // 无括号
       if (values === null) {
-        values = item.match(/([0123456789-]*[\*\#~.xyzbsfdeulmr][w]*)('?)(\d*)('?)/i);
+        values = item.match(/([0123456789-]*[\*\#~;.xyzbsfdeulmr][w]*)('?)(\d*)('?)/i);
       }
       // 异常情况
       if (null === values) {
@@ -228,12 +228,9 @@ export default class Twister {
         axis = Math.floor(Math.random() * 3);
       }
       const side = Math.floor(Math.random() * 2);
-      let action = actions[axis * 2 + side];
+      const action = actions[axis * 2 + side];
       const prefix = Math.ceil(Math.random() * Math.floor(this.cube.order / 2));
-      if (prefix === 1) {
-        action = action[0];
-      }
-      if (prefix > 2) {
+      if (prefix !== 1) {
         exp.push(prefix);
       }
       exp.push(action);
@@ -312,8 +309,9 @@ export default class Twister {
       this.setup(exp);
       return true;
     }
-    if (action.sign == ".") {
+    if (action.sign == "." || action.sign == "~") {
       if (fast || force) {
+        this.cube.callback();
         return true;
       }
       success = this.cube.lock("a", 1);
@@ -329,13 +327,15 @@ export default class Twister {
       }
       return success;
     }
-    if (action.sign == "~") {
+    if (action.sign == ";") {
       if (fast || force) {
+        this.cube.callback();
         return true;
       }
       success = this.cube.lock("a", 1);
       if (success) {
         this.cube.unlock("a", 1);
+        this.cube.callback();
       }
       return success;
     }
@@ -361,7 +361,7 @@ export default class Twister {
       return;
     }
     const last = this.cube.history.last;
-    const reverse = new TwistAction(last.sign, !last.reverse, last.times);
+    const reverse = new TwistAction(last.sign, !last.reverse, 1);
     this.twist(reverse, false, true);
   }
 }
