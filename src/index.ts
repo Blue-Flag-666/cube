@@ -1,4 +1,4 @@
-import Vue, {VNode} from "vue";
+import Vue, { VNode } from "vue";
 import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.css";
 import "material-design-icons/iconfont/material-icons.css";
@@ -8,20 +8,20 @@ import Director from "./vue/Director";
 import Player from "./vue/Player";
 import Helper from "./vue/Helper";
 import Algs from "./vue/Algs";
-import {VueConstructor} from "vue/types/umd";
+import { VueConstructor } from "vue/types/umd";
 
 /* eslint-disable */
 var _hmt: any = _hmt || [];
 (function () {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?e3fd96123e7614cd5ea9dc70df73217f";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode?.insertBefore(hm, s);
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e3fd96123e7614cd5ea9dc70df73217f";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode?.insertBefore(hm, s);
 })();
 /* eslint-disable */
 
 if (navigator.serviceWorker != null) {
-    navigator.serviceWorker.register("./service-worker.js");
+  navigator.serviceWorker.register("./service-worker.js");
 }
 
 Vue.use(Vuetify);
@@ -36,25 +36,30 @@ Vue.prototype.mode = mode;
 
 let app: VueConstructor;
 switch (mode) {
-    case "director":
-        app = Director;
-        break;
-    case "algs":
-        app = Algs;
-        break;
-    case "player":
-        app = Player;
-        break;
-    case "helper":
-        app = Helper;
-        break;
-    default:
-        app = Playground;
-        break;
+  case "director":
+    app = Director;
+    break;
+  case "algs":
+    app = Algs;
+    break;
+  case "player":
+    app = Player;
+    break;
+  case "helper":
+    app = Helper;
+    break;
+  case "reset":
+    window.localStorage.clear();
+    const link = window.location.origin + window.location.pathname;
+    window.location.replace(link);
+    break;
+  default:
+    app = Playground;
+    break;
 }
 const vm = new Vue({
-    vuetify,
-    el: "#app",
-    render: (h): VNode => h(app),
+  vuetify,
+  el: "#app",
+  render: (h): VNode => h(app),
 });
 export default vm;
