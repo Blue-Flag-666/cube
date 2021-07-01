@@ -1,9 +1,10 @@
-# [魔方游戏](https://galaxy-studio.ga/cube)
+# 魔方游戏
 
-- 地址: https://galaxy-studio.ga/cube
+- 优美而强大的网页魔方
 
-    ![icon](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/resource/icon.png)
+- 地址: <https://galaxy-studio.ga/cube>
 
+  <img width="120px" src="https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/resource/icon.png"  alt="icon"/>
 
 # 功能介绍
 
@@ -35,86 +36,87 @@
 <td>→<br><span> U'</span></td>
 </tr>
 </table>
+
 ## [虚拟魔方](https://galaxy-studio.ga/cube)
 
 - 触控操作
 
-  ![touch](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/touch.gif)
+  ![touch](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/touch.gif)
 
 - 撤销操作
 
-  ![undo](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/undo.gif)
+  ![undo](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/undo.gif)
 
 - 操作历史
 
-  ![history](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/history.gif)
+  ![history](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/history.gif)
 
 - NISS
 
-  ![niss](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/niss.gif)
+  ![niss](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/niss.gif)
 
 - 自定义打乱
 
-  ![scramble](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/scramble.gif)
+  ![scramble](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/scramble.gif)
 
 - 复盘
 
-  ![replay](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/replay.gif)
+  ![replay](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/replay.gif)
 
-## [复原教程](https://galaxy-studio.ga/cube/?mode=algs)
+## [复原教程](https://galaxy-studio.ga/cube?mode=algs)
 
 - 公式播放
 
-  ![algs-player](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/algs-player.gif)
+  ![algs-player](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/algs-player.gif)
 
 * 公式列表
 
-  ![algs-list](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/algs-list.gif)
+  ![algs-list](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/algs-list.gif)
 
 - 播放控制
 
-  ![algs-step](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/algs-step.gif)
+  ![algs-step](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/algs-step.gif)
 
-## [动画制作](https://galaxy-studio.ga/cube/?mode=director)
+## [动画制作](https://galaxy-studio.ga/cube?mode=director)
 
 - 场景布置与截图
 
-  ![snap](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/snap.gif)
+  ![snap](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/snap.gif)
 
 - 动画编写与播放
 
-  ![action](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/action.gif)
+  ![action](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/action.gif)
 
 - 导出 gif
 
-  ![gif](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/gif.gif)
+  ![gif](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/gif.gif)
 
 - 自由涂色
 
-  ![colorize](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/colorize.gif)
+  ![colorize](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/colorize.gif)
 
 - 输出配置
 
-  ![output](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/output.gif)
+  ![output](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/output.gif)
 
 - 动画共享
 
-  ![output](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/share.gif)
+  ![output](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/share.gif)
 
 ## 配置选项
 
 - 阶数选择
 
-  ![order](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/order.gif)
+  ![order](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/order.gif)
 
 - 操作设置
 
-  ![control](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/control.gif)
+  ![control](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/control.gif)
 
 - 外观设置
 
-  ![appear](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/appear.gif)
+  ![appear](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/appear.gif)
 
 - 主题设置
 
-  ![theme](https://raw.githubusercontent.com/Galaxy-Studio-Code/cube/master/screenshot/theme.gif)
+  ![theme](https://cdn.jsdelivr.net/gh/Galaxy-Studio-Code/cube/screenshot/theme.gif)
