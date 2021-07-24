@@ -8,7 +8,7 @@
 
 # 功能介绍
 
-## 物理键盘
+## 键盘
 
 <table class="table" id="vrckey" style="display: inline-block;">
 <tr><th colspan=10>按键表</th></tr>
